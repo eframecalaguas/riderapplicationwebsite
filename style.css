@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 /* banner */
 #banner {
@@ -15,8 +15,7 @@
 }
 
 .logo {
-  width: 140px;
-  height: 80px;
+  width: 150px;
   position: absolute;
   top: 4%;
   left: 10%;
@@ -26,6 +25,9 @@
   text-align: center;
   color: #fff;
   padding-top: 180px;
+  position: absolute;
+  left: 30%;
+  top: 15%;
 }
 
 .banner-text h1 {
@@ -48,7 +50,7 @@
   display: inline-block;
   margin: 0 10px;
   padding: 12px 0;
-  color: #000;
+  color: #fff;
   border: 0.5px solid #fff;
   position: relative;
   z-index: 1;
@@ -79,7 +81,7 @@
   padding: 15px 40px 15px 40px;
   border-radius: 8px;
   background: transparent;
-  color: #000;
+  color: #fff;
   border: 0.5px solid #fff;
 }
 
@@ -376,12 +378,13 @@ hr {
 
 .testimonial-col {
   flex-basis: 28%;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0 10px 20px 3px #fbd10b;
   cursor: pointer;
   transition: transform 0.5s;
+  text-align: center;
 }
 
 .testimonial-col p {
@@ -492,9 +495,12 @@ hr {
   .footer-left,
   .footer-right {
     flex-basis: 100%;
+    text-align: center;
     font-size: 14px;
   }
   .footer-img {
     top: 20%;
   }
 }
+
+/* Form */
