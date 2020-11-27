@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <label><img src="./images/logo.png" class="logo"></label>
+    </nav>
+    <!-- navbar -->
+
+    <!-- form -->
+    <div class="regform">
+        <h1>Registration Form</h1>
+    </div>
+    <div class="main">
+        <form>
+            <div id="name">
+                <h2 class="name">Pangalan:</h2>
+                <input type="text" class="firstname" name="first_name" placeholder="ex. John" required><br>
+                <label class="firstlabel">First Name</label>
+                <input type="text" class="lastname" name="last_name" placeholder="ex. Lim" required>
+                <label class="lastlabel">Last Name</label>
+
+                <h2 class="name">Phone:</h2>
+                <input type="tel" class="mobilenumber" name="mobile_number" placeholder="123456789" required>
+
+                <h2 class="name">Ikaw ba ay edad 18 pataas?</h2>
+                <label for="answer" class="radio">
+                    <input type="radio" name="answer" id="yes" value="yes" required><span class="checkmark"></span>
+                    Oo</label>
+                <label for="answer" class="radio">
+                    <input type="radio" name="answer" id="no" value="no"><span class="checkmark"></span>
+                    Hindi</label>
+
+                <h2 class="name">Mayroon ka bang Professional Driver's License</h2>
+                <label for="answer2" class="radio">
+                    <input type="radio" name="answer2" id="yes" value="yes" class="radio-one"><span
+                        class="checkmark"></span>
+                    Meron</label>
+                <label for="answer2" class="radio">
+                    <input type="radio" name="answer2" id="no" value="no" class="radio-two"> <span
+                        class="checkmark"></span>
+                    Wala</label><br>
+
+                <input type="checkbox" name="termsandconditions" id="terms_conditions" class="firstcheckbox">
+                <label for="termsandconditions" class="labeltext">Sumasang-ayon ako sa patakaran sa privacy at
+                    sumasang-ayon ako na
+                    makipag-ugnay sa mga third <br>party channels tulad ng nakasaad sa patakaran sa privacy. Sa
+                    pamamagitan
+                    ng pagpapatuloy, sumasang-<br>ayon ako na maaari mong kolektahin, gamitin at ibunyag ang mga
+                    impormasyong ibinigay ko alinsunod <br>sa iyong <a href="">Patakaran sa Pagkapribado na aking nabasa
+                        at
+                        naiintindihan.</a> </label><br><br>
+
+                <button type="submit">Next</button>
+            </div>
+        </form>
+
+
+    </div>
+
+    <!-- form -->
+</body>
+
+</html>

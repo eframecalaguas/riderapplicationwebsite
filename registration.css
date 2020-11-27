@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  background: #fbd10b;
+  height: 80px;
+}
+
+.logo {
+  position: absolute;
+  width: 120px;
+  left: 10%;
+}
+
+.regform {
+  position: relative;
+  top: 100px;
+  width: 800px;
+  background: rgb(0, 0, 0, 6);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+  position: relative;
+  top: 100px;
+  background: rgb(0, 0, 0, 0.1);
+  width: 800px;
+  height: 620px;
+  margin: auto;
+}
+
+form {
+  padding: 10px;
+}
+
+#name {
+  width: 100%;
+  height: 100px;
+}
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.firstname {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  border: none;
+}
+
+.lastname {
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  border: none;
+}
+
+.firstlabel {
+  position: relative;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 280px;
+  top: -45px;
+}
+
+.lastlabel {
+  position: relative;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 260px;
+  top: -45px;
+}
+
+.mobilenumber {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  border: none;
+}
+
+.radio {
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: black;
+}
+
+.radio input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.firstcheckbox {
+  position: relative;
+  left: 35px;
+  top: 20px;
+}
+
+.labeltext {
+  position: relative;
+  left: 40px;
+  top: 20px;
+  color: black;
+  line-height: 30px;
+}
+
+button {
+  background: #fbd10b;
+  display: block;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+  border-radius: 12px;
+  outline: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.25px;
+  position: absolute;
+  left: 40%;
+  padding: 5px 40px 5px 40px;
+}
+
+button:hover {
+  background: #fadb41;
+}
