@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -12,18 +12,27 @@ body {
 
 nav {
   background: #fbd10b;
-  height: 80px;
+  height: 100px;
+  position: relative;
 }
 
 .logo {
   position: absolute;
-  width: 120px;
+  width: 150px;
   left: 10%;
+}
+.progress-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.progress-bar img {
+  margin-top: 30px;
 }
 
 .regform {
   position: relative;
-  top: 100px;
+  top: 40px;
   width: 800px;
   background: rgb(0, 0, 0, 6);
   margin: auto;
@@ -35,7 +44,7 @@ nav {
 
 .main {
   position: relative;
-  top: 100px;
+  top: 40px;
   background: rgb(0, 0, 0, 0.1);
   width: 800px;
   height: 620px;
@@ -144,15 +153,81 @@ button {
   margin: 20px 0px 0px 20px;
   text-align: center;
   border-radius: 12px;
-  outline: none;
-  color: black;
+  border: none;
+  color: white;
   cursor: pointer;
   transition: 0.25px;
   position: absolute;
   left: 40%;
   padding: 5px 40px 5px 40px;
 }
+button a {
+  color: white;
+}
 
 button:hover {
   background: #fadb41;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 150px;
+    left: 5px;
+  }
+  .progress-bar img {
+    width: 310px;
+  }
+  .regform {
+    width: 380px;
+    font-size: 10px;
+  }
+  .main {
+    width: 380px;
+    height: 730px;
+  }
+  #name {
+    align-content: center;
+  }
+  .name {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  form {
+    padding: 2px;
+  }
+  .firstname,
+  .lastname,
+  .mobilenumber {
+    font-size: 10px;
+    padding: 4px 3px 0px 4px;
+  }
+  .firstlabel,
+  .lastlabel {
+    display: none;
+  }
+
+  .lastname {
+    left: 200px;
+    top: -20px;
+  }
+  .radio input {
+    width: 10px;
+  }
+  .radio {
+    font-size: 12px;
+  }
+  .labeltext {
+    font-size: 12px;
+    left: 10px;
+  }
+  .firstcheckbox {
+    left: 10px;
+    display: inline-block;
+  }
+  button {
+    left: 115px;
+    top: 680px;
+  }
 }
