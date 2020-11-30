@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Steps</title>
+    <link rel="stylesheet" href="stepStyle.css">
+</head>
+
+<body>
+    <nav>
+        <label><img src="./images/logo.png" class="logo"></label>
+    </nav>
+    <div class="progress-bar">
+        <img src="./images/page4.png" alt="">
+    </div>
+
+    <div class="completeform">
+        <h1>Complete The Form</h1>
+    </div>
+    <div class="main-form">
+        <form>
+            <label for="input-date" class="title-label">Date of Birth</label><br>
+            <input type="date" class="input-date" name="input-date" required><br>
+
+            <label for="valid-id" class="title-label">Valid ID</label>
+            <input type="file" class="valid-id" name="valid-id" required><br>
+
+            <label for="nbi-clearance" class="title-label">NBI Clearance</label>
+            <input type="file" class="nbi-clearance" name="nbi-clearance" required><br>
+
+            <label for="tin-id" class="title-label">Tax Identification Number (TIN)</label>
+            <input type="text" placeholder="I-type ang hinihingi dito" class="tin-id" name="tin-id" required><br>
+
+            <label for="current-add" class="title-label">Current Address</label>
+            <input type="text" placeholder="I-type ang hinihingi dito" class="current-add" name="current-add"
+                required><br>
+
+            <label for="contact-name" class="title-label">Emergency Contact's Name</label>
+            <input type="text" placeholder="I-type ang hinihingi dito" class="contact-name" name="contact-name"
+                required><br>
+
+            <label for="contact-mobile" class="title-label">Emergency Contact Mobile No.</label>
+            <input type="text" placeholder="I-type ang hinihingi dito" class="contact-mobile" name="contact-mobile"
+                required>
+
+
+            <h3 class="question-title">May Kapamilya ka bang nagtatrabaho sa Let's Bee?</h3>
+            <input type="radio" class="radio" name="input-radio" value="input-radio">
+            <label for="input-radio">Oo</label>
+            <input type="radio" class="radio" name="input-radio" value="input-radio">
+            <label for="input-radio">Wala</label>
+
+            <h3 class="question-title">May Kapamilya ka bang nagtatrabaho sa Let's Bee?</h3>
+            <input type="radio" class="radio" name="radio-work" value="radio-work">
+            <label for="radio-work">Yes</label>
+            <input type="radio" class="radio" name="radio-work" value="radio-work">
+            <label for="radio-work">Medyo</label>
+            <input type="radio" class="radio" name="radio-work" value="radio-work">
+            <label for="radio-work">Hindi</label>
+
+            <h3 class="question-title">Saan mo kami narinig?</h3>
+            <input type="checkbox">
+            <label for="">Inirekomenda ng kaibigan</label><br>
+            <input type="checkbox">
+            <label for="">Social media(gaya ng Facebook o Youtube)</label><br>
+            <input type="checkbox">
+            <label for="">Job hunting site(gaya ng Jobstreet)</label><br>
+            <input type="checkbox">
+            <label for="">Nakakita ng Let's Bee rider sa daan</label>
+        </form>
+    </div>
+
+    <div class="btn-form">
+        <button type="submit" class="btn-prevform"><a href="./step3.html">Previous</a></button><br>
+        <button type="submit" class="btn-nextform"><a href="./step5.html">Next</a></button>
+    </div>
+</body>
+
+</html>
