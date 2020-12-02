@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:ital,wght@1,600&display=swap");
+:root {
+  --white: #fff;
+  --black: #000000;
+  --custom-yellow: #fbd10b;
+}
 
 * {
   margin: 0;
@@ -8,7 +13,7 @@
 /* banner */
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.7), #fbd10b),
-    url(./images/banner.jpg);
+    url(./assets/banner.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -23,7 +28,7 @@
 
 .banner-text {
   text-align: center;
-  color: #fff;
+  color: var(--white);
   padding-top: 180px;
   position: absolute;
   left: 30%;
